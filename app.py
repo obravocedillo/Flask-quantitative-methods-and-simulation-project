@@ -1,23 +1,25 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import markovify
 from mbot import MBot
 import time
 
 app = Flask(__name__)
+CORS(app)
 currentIndex = 0
 text_models = {}
 
 matrixDictionary = {
-   #Videojuegos
-   'B07VGRJDFY':MBot('B07VGRJDFY'),
-   'B07XF2ZXNG':MBot('B07XF2ZXNG'),
-   'B084SFDDN3':MBot('B084SFDDN3'),
-   #Videojuegos
    #Hogar
    'B078RTCRGM':MBot('B078RTCRGM'),
    'B086TW55T4':MBot('B086TW55T4'),
    'B07PGJSYYC':MBot('B07PGJSYYC'),
    #Hogar
+   #Videojuegos
+   'B07VGRJDFY':MBot('B07VGRJDFY'),
+   'B07XF2ZXNG':MBot('B07XF2ZXNG'),
+   'B084SFDDN3':MBot('B084SFDDN3'),
+   #Videojuegos
    #Electronica
    'B07WLSQMHF':MBot('B07WLSQMHF'),
    'B0195Y0A42':MBot('B0195Y0A42'),
@@ -82,12 +84,12 @@ def generateNumber():
       return "Error", 500
 
 @app.route('/generate-comment',methods=['GET'])
-#Use example http://127.0.0.1:5000/generate-comment?asin=B07PGJSYYC
+#Use example http://127.0.0.1:5000/generate-comment?asin=B07PGJSYYC&length=3
 def generateComment():
    productId = request.args.get('asin')
-   if(productId):
-      randomCommnet = generateMarkovComment(productId, 8)
-      return randomCommnet, 200
+   length = request.args.get('length')
+   if(productId and length):
+      return generateMarkovComment(productId, int(length)), 200
    else:
       return "Error", 500
 
@@ -110,14 +112,14 @@ def getAllProducts():
    setNumber = request.args.get('set')
    if(category and setNumber):
       tempArray = []
-      if(category == "1"):
+      if(category == "2"):
          tempData1 = matrixDictionary['B07VGRJDFY'].nextData(int(setNumber))
          tempData2 = matrixDictionary['B07XF2ZXNG'].nextData(int(setNumber))
          tempData3 = matrixDictionary['B084SFDDN3'].nextData(int(setNumber))
          tempArray.append(tempData1)
          tempArray.append(tempData2)
          tempArray.append(tempData3)
-      elif(category == "2"):
+      elif(category == "1"):
          tempData1 = matrixDictionary['B078RTCRGM'].nextData(int(setNumber))
          tempData2 = matrixDictionary['B086TW55T4'].nextData(int(setNumber))
          tempData3 = matrixDictionary['B07PGJSYYC'].nextData(int(setNumber))
