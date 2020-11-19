@@ -1,0 +1,154 @@
+{
+   "11/06/2020 - 11/09/2020": {
+      "bb_price": {
+         "749.00": [
+            [
+               "749.00",
+               1.0
+            ]
+         ]
+      },
+      "bb_delivery": {
+         "viernes, nov 27": [
+            [
+               "viernes, nov 27",
+               1.0
+            ]
+         ]
+      },
+      "bb_delivery_fast": {
+         "jueves, nov 26": [
+            [
+               "jueves, nov 26",
+               1.0
+            ]
+         ]
+      },
+      "review": {
+         "4.8": [
+            [
+               4.8,
+               1.0
+            ]
+         ]
+      },
+      "bb_seller": {
+         "Amazon": [
+            [
+               "Amazon",
+               1.0
+            ]
+         ]
+      }
+   },
+   "11/09/2020 - 11/21/2020": {
+      "bb_price": {
+         "599.00": [
+            [
+               "599.00",
+               1.0
+            ]
+         ]
+      },
+      "bb_delivery": {
+         "viernes, nov 27": [
+            [
+               "Null",
+               0.1
+            ],
+            [
+               "viernes, nov 27",
+               0.85
+            ],
+            [
+               "jueves, nov 26",
+               0.05
+            ]
+         ],
+         "Null": [
+            [
+               "Null",
+               0.96552
+            ],
+            [
+               "martes, nov 17",
+               0.03448
+            ]
+         ],
+         "martes, nov 17": [
+            [
+               "jueves, nov 26",
+               1.0
+            ]
+         ],
+         "jueves, nov 26": [
+            [
+               "jueves, nov 26",
+               0.75
+            ],
+            [
+               "viernes, nov 27",
+               0.25
+            ]
+         ]
+      },
+      "bb_delivery_fast": {
+         "jueves, nov 26": [
+            [
+               "Null",
+               0.15
+            ],
+            [
+               "jueves, nov 26",
+               0.85
+            ]
+         ],
+         "Null": [
+            [
+               "Null",
+               0.94118
+            ],
+            [
+               "lunes, nov 16",
+               0.02941
+            ],
+            [
+               "jueves, nov 26",
+               0.02941
+            ]
+         ],
+         "lunes, nov 16": [
+            [
+               "mi\u00e9rcoles, nov 25",
+               1.0
+            ]
+         ],
+         "mi\u00e9rcoles, nov 25": [
+            [
+               "mi\u00e9rcoles, nov 25",
+               0.66667
+            ],
+            [
+               "jueves, nov 26",
+               0.33333
+            ]
+         ]
+      },
+      "review": {
+         "4.8": [
+            [
+               4.8,
+               1.0
+            ]
+         ]
+      },
+      "bb_seller": {
+         "Amazon": [
+            [
+               "Amazon",
+               1.0
+            ]
+         ]
+      }
+   }
+}

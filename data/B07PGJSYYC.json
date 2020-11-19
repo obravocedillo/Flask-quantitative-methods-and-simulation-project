@@ -1,0 +1,234 @@
+{
+   "11/06/2020 - 11/09/2020": {
+      "bb_price": {
+         "169.00": [
+            [
+               "169.00",
+               1.0
+            ]
+         ]
+      },
+      "bb_delivery": {
+         "s\u00e1bado, nov 14": [
+            [
+               "viernes, nov 13",
+               0.25
+            ],
+            [
+               "s\u00e1bado, nov 14",
+               0.75
+            ]
+         ],
+         "viernes, nov 13": [
+            [
+               "viernes, nov 13",
+               0.8
+            ],
+            [
+               "s\u00e1bado, nov 14",
+               0.2
+            ]
+         ]
+      },
+      "bb_delivery_fast": {
+         "jueves, nov 12": [
+            [
+               "Null",
+               0.33333
+            ],
+            [
+               "jueves, nov 12",
+               0.66667
+            ]
+         ],
+         "Null": [
+            [
+               "Null",
+               0.85714
+            ],
+            [
+               "jueves, nov 12",
+               0.14286
+            ]
+         ]
+      },
+      "review": {
+         "4.6": [
+            [
+               4.6,
+               1.0
+            ]
+         ]
+      },
+      "bb_seller": {
+         "SonolifeMX": [
+            [
+               "SonolifeMX",
+               1.0
+            ]
+         ]
+      }
+   },
+   "11/09/2020 - 11/21/2020": {
+      "bb_price": {
+         "169.00": [
+            [
+               "169.00",
+               1.0
+            ]
+         ]
+      },
+      "bb_delivery": {
+         "viernes, nov 20": [
+            [
+               "s\u00e1bado, nov 14",
+               0.25
+            ],
+            [
+               "viernes, nov 20",
+               0.75
+            ]
+         ],
+         "s\u00e1bado, nov 14": [
+            [
+               "s\u00e1bado, nov 14",
+               0.875
+            ],
+            [
+               "domingo, nov 15",
+               0.125
+            ]
+         ],
+         "domingo, nov 15": [
+            [
+               "domingo, nov 15",
+               0.75
+            ],
+            [
+               "lunes, nov 16",
+               0.25
+            ]
+         ],
+         "lunes, nov 16": [
+            [
+               "lunes, nov 16",
+               0.84615
+            ],
+            [
+               "domingo, nov 15",
+               0.07692
+            ],
+            [
+               "martes, nov 17",
+               0.07692
+            ]
+         ],
+         "martes, nov 17": [
+            [
+               "martes, nov 17",
+               0.85714
+            ],
+            [
+               "mi\u00e9rcoles, nov 18",
+               0.14286
+            ]
+         ],
+         "mi\u00e9rcoles, nov 18": [
+            [
+               "mi\u00e9rcoles, nov 18",
+               0.85714
+            ],
+            [
+               "jueves, nov 19",
+               0.14286
+            ]
+         ],
+         "jueves, nov 19": [
+            [
+               "jueves, nov 19",
+               0.85714
+            ],
+            [
+               "viernes, nov 20",
+               0.14286
+            ]
+         ]
+      },
+      "bb_delivery_fast": {
+         "Null": [
+            [
+               "Null",
+               0.91304
+            ],
+            [
+               "viernes, nov 13",
+               0.02174
+            ],
+            [
+               "s\u00e1bado, nov 14",
+               0.04348
+            ],
+            [
+               "domingo, nov 15",
+               0.02174
+            ]
+         ],
+         "viernes, nov 13": [
+            [
+               "viernes, nov 13",
+               0.75
+            ],
+            [
+               "Null",
+               0.25
+            ]
+         ],
+         "s\u00e1bado, nov 14": [
+            [
+               "s\u00e1bado, nov 14",
+               0.71429
+            ],
+            [
+               "Null",
+               0.28571
+            ]
+         ],
+         "domingo, nov 15": [
+            [
+               "Null",
+               1.0
+            ]
+         ]
+      },
+      "review": {
+         "4.6": [
+            [
+               4.6,
+               0.98039
+            ],
+            [
+               4.5,
+               0.01961
+            ]
+         ],
+         "4.5": [
+            [
+               4.5,
+               0.85714
+            ],
+            [
+               4.6,
+               0.14286
+            ]
+         ]
+      },
+      "bb_seller": {
+         "SonolifeMX": [
+            [
+               "SonolifeMX",
+               1.0
+            ]
+         ]
+      }
+   }
+}

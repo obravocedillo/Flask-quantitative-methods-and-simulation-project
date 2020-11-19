@@ -1,0 +1,282 @@
+{
+   "11/06/2020 - 11/09/2020": {
+      "bb_price": {
+         "146.00": [
+            [
+               "146.00",
+               1.0
+            ]
+         ]
+      },
+      "bb_delivery": {
+         "s\u00e1bado, nov 14": [
+            [
+               "viernes, nov 13",
+               0.25
+            ],
+            [
+               "s\u00e1bado, nov 14",
+               0.75
+            ]
+         ],
+         "viernes, nov 13": [
+            [
+               "viernes, nov 13",
+               0.8
+            ],
+            [
+               "s\u00e1bado, nov 14",
+               0.2
+            ]
+         ]
+      },
+      "bb_delivery_fast": {
+         "jueves, nov 12": [
+            [
+               "Null",
+               0.66667
+            ],
+            [
+               "jueves, nov 12",
+               0.33333
+            ]
+         ],
+         "Null": [
+            [
+               "Null",
+               0.9
+            ],
+            [
+               "jueves, nov 12",
+               0.1
+            ]
+         ]
+      },
+      "review": {
+         "4.8": [
+            [
+               4.8,
+               1.0
+            ]
+         ]
+      },
+      "bb_seller": {
+         "Amazon": [
+            [
+               "Amazon",
+               1.0
+            ]
+         ]
+      }
+   },
+   "11/09/2020 - 11/21/2020": {
+      "bb_price": {
+         "146.00": [
+            [
+               "146.00",
+               0.93333
+            ],
+            [
+               "148.00",
+               0.06667
+            ]
+         ],
+         "148.00": [
+            [
+               "148.00",
+               0.9375
+            ],
+            [
+               "149.00",
+               0.0625
+            ]
+         ],
+         "149.00": [
+            [
+               "149.00",
+               0.96154
+            ],
+            [
+               "146.00",
+               0.03846
+            ]
+         ]
+      },
+      "bb_delivery": {
+         "viernes, nov 20": [
+            [
+               "s\u00e1bado, nov 14",
+               0.25
+            ],
+            [
+               "viernes, nov 20",
+               0.75
+            ]
+         ],
+         "s\u00e1bado, nov 14": [
+            [
+               "s\u00e1bado, nov 14",
+               0.875
+            ],
+            [
+               "domingo, nov 15",
+               0.125
+            ]
+         ],
+         "domingo, nov 15": [
+            [
+               "domingo, nov 15",
+               0.77778
+            ],
+            [
+               "lunes, nov 16",
+               0.22222
+            ]
+         ],
+         "lunes, nov 16": [
+            [
+               "lunes, nov 16",
+               0.83333
+            ],
+            [
+               "domingo, nov 15",
+               0.08333
+            ],
+            [
+               "martes, nov 17",
+               0.08333
+            ]
+         ],
+         "martes, nov 17": [
+            [
+               "martes, nov 17",
+               0.85714
+            ],
+            [
+               "mi\u00e9rcoles, nov 18",
+               0.14286
+            ]
+         ],
+         "mi\u00e9rcoles, nov 18": [
+            [
+               "mi\u00e9rcoles, nov 18",
+               0.85714
+            ],
+            [
+               "jueves, nov 19",
+               0.14286
+            ]
+         ],
+         "jueves, nov 19": [
+            [
+               "jueves, nov 19",
+               0.85714
+            ],
+            [
+               "viernes, nov 20",
+               0.14286
+            ]
+         ]
+      },
+      "bb_delivery_fast": {
+         "Null": [
+            [
+               "Null",
+               0.77778
+            ],
+            [
+               "jueves, nov 12",
+               0.07407
+            ],
+            [
+               "s\u00e1bado, nov 14",
+               0.03704
+            ],
+            [
+               "lunes, nov 16",
+               0.03704
+            ],
+            [
+               "martes, nov 17",
+               0.03704
+            ],
+            [
+               "mi\u00e9rcoles, nov 18",
+               0.03704
+            ]
+         ],
+         "jueves, nov 12": [
+            [
+               "Null",
+               1.0
+            ]
+         ],
+         "s\u00e1bado, nov 14": [
+            [
+               "s\u00e1bado, nov 14",
+               0.85714
+            ],
+            [
+               "domingo, nov 15",
+               0.14286
+            ]
+         ],
+         "domingo, nov 15": [
+            [
+               "domingo, nov 15",
+               0.85714
+            ],
+            [
+               "lunes, nov 16",
+               0.14286
+            ]
+         ],
+         "lunes, nov 16": [
+            [
+               "Null",
+               0.33333
+            ],
+            [
+               "lunes, nov 16",
+               0.66667
+            ]
+         ],
+         "martes, nov 17": [
+            [
+               "martes, nov 17",
+               0.8
+            ],
+            [
+               "Null",
+               0.2
+            ]
+         ],
+         "mi\u00e9rcoles, nov 18": [
+            [
+               "mi\u00e9rcoles, nov 18",
+               0.75
+            ],
+            [
+               "Null",
+               0.25
+            ]
+         ]
+      },
+      "review": {
+         "4.8": [
+            [
+               4.8,
+               1.0
+            ]
+         ]
+      },
+      "bb_seller": {
+         "Amazon": [
+            [
+               "Amazon",
+               1.0
+            ]
+         ]
+      }
+   }
+}
